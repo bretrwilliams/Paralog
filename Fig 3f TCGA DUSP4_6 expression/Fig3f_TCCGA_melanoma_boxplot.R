@@ -121,7 +121,7 @@ wil_box<- ggplot(paralog_merged.all, aes(y=log2(expr), x=mutDUSP,color=MutStatus
     legend.direction = "vertical",
     legend.title = element_blank())+
   labs(title  = "TCGA melanoma")
-ggsave(wil_box,filename = "Fig 3g TCGA DUSP4_6 expression/Fig3g_TCGA_mel_DUSP46_wilcox.pdf",
+ggsave(wil_box,filename = "Fig 3f TCGA DUSP4_6 expression/Fig3f_TCGA_mel_DUSP46_wilcox.pdf",
        dpi = 1000,width = 4, height = 6)
 
 
