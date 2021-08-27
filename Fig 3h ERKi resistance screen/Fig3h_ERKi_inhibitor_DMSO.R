@@ -43,5 +43,5 @@ g <- ggplot(data = avg_LFC_row2col, aes(x = random_index, y = MELJUSO_SKIN_ERKi 
         panel.border = element_rect(colour = "black", fill=NA, size=1))+
   ylim(c(-2,4))+
   labs(x="Gene Index",y = "Sensitive <- Sensitizer index -> Resistance",title="DMSO vs SCH984 (ERK inhibitor)")
-ggsave(g, filename = paste0("Fig 3i ERKi resistance screen/Fig3i_DMSO_ERKi_SensitivityIndex_ReplicatesMerged_",Sys.Date(),".pdf"), 
+ggsave(g, filename = paste0("Fig 3h ERKi resistance screen/Fig3h_DMSO_ERKi_SensitivityIndex_ReplicatesMerged_",Sys.Date(),".pdf"), 
        width = 6, height = 6)
